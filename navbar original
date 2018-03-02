@@ -1,0 +1,31 @@
+
+
+<!--
+  <!-------------------------------------NAV BAR ORIGINAL -------------------------------------------------->
+<div class="container-fluid">
+  <nav class="navbar fixed-top navbar-expand-lg transparent" id="navbar-background">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+<!-------------- HOME ------------>
+        <li class="nav-item active">
+          <a class="nav-link" href="###"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+        </li>
+<!-------------- ABOUT ------------>
+        <li class="nav-item active">
+          <a class="nav-link" href="###"><i class="fa fa-address-card-o" aria-hidden="true"></i> About</a>
+        </li>
+<!-------- PORTFOLIO ----------->
+        <li class="nav-item">
+          <a class="nav-link" href="###"><i class="fa fa-file-code-o" aria-hidden="true"></i> Portfolio</a>
+        </li>
+<!-------- CONTACT ----------->
+        <li class="nav-item">
+          <a class="nav-link" href="###"><i class="fa fa-envelope-o" aria-hidden="true"></i></i> Contact</a>
+        </li>
+      </ul>
+      <!----------- ADAM KIM -------->
+          <a class="navbar-brand" href="###"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Adam Kim</a>
+      </div>
+    </div>
+  </nav>
+-->

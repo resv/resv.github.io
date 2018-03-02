@@ -1,0 +1,524 @@
+
+
+<html>
+  <head>
+    <title>Adam Kim's Portfolio</title>
+    <!-------------------------------------- Google Fonts ----------------------------------------------------------->
+      <link href="https://fonts.googleapis.com/css?family=Passion+One|Fjalla+One|Alegreya+SC|Droid+Sans+Mono|Encode+Sans:500|Roboto+Condensed:300,400" rel="stylesheet">
+    <!-------------------------------------- Bootstrap CSS ---------------------------------------------------------->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <!-------------------------------------- FONT AWESOME ----------------------------------------------------------->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--------------------------------------- Local CSS ------------------------------------------------------------->
+      <link rel="stylesheet" type="text/css" href="CSS.css">
+      <!---------------------------- Bootstrap Plugins:JS, Popper, and jQuery ----------------------------------------->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+      <!-------------------------- JQUERY HOSTED BY GOOGLE -------------------------------------------------------->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <!-------------------------- JQUERY TYPEIT -------------------------------------------------------->
+        <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+      <!---------------------------- JQUERY FADE IN ---------------------------------------------------------->
+    <script>
+     $(document).ready(function(){
+      //  HEADER1 FADEIN
+    // $("#typeIt1").fadeIn(1);
+    //  $("h2").css("color", "000000");
+    // $("#typeIt1").delay(1800).fadeOut(800);
+$("#typeIt1").delay(1800).animate({"opacity": "0"}, 800);
+    // HEADER2 FADEIN
+  //  $("#header2").fadeOut(1);
+   //  $("h2").css("color", "000000");
+  //  $("#header2").delay(2000).fadeIn(3500);
+$("#header2").delay(2500).animate({"opacity": "1"}, 3500);
+// NAV BAR FADEIN
+$("#navbar-entirety").delay(1800).animate({"opacity": "1"}, 800);
+// HOME BG SETTINGS FOR FADES
+$(".bg-home").delay(2000).animate({"opacity": "1"}, 1000);
+$("#video-background").delay(2000).animate({"opacity": "0"}, 2000);
+//  <!-----------------------------------JQUERY TYPEIT ----------------------------------------->
+    $("#typeIt1").typeIt({
+         strings: 'cd ~/workspace/<b>AdamKim</b>/home',
+         speed: 60,
+         autoStart: true
+        //  <p id="typeit1"></p>
+    });
+    // <!---------------------------- JQUERY BLINK ---------------------------------------------------------->
+    $('.blink').each(function() {
+        var elem = $(this);
+        setInterval(function() {
+            if (elem.css('visibility') == 'hidden') {
+                elem.css('visibility', 'visible');
+            } else {
+                elem.css('visibility', 'hidden');
+            }
+        }, 500);
+    });
+    });
+    </script>
+</head>
+
+  <!-------------------------------------NAVBAR CODE VERSION -------------------------------------------------->
+
+<div id="navbar-entirety">
+<div class="container-fluid">
+  <nav class="navbar fixed-top navbar-expand-lg transparent" id="navbar-background">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+<!---------- ~/------------->
+        <li class="nav-item">
+          <a class="nav-link"><b>~/</b></a>
+        </li>
+<!-------------- HOME ------------>
+        <li class="nav-item">
+          <a class="nav-link nav-link-plus" href="#home"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+        </li>
+<!-------- / ----------->
+        <li class="nav-item">
+          <a class="nav-link"><b>/</b></a>
+        </li>
+<!-------------- ABOUT ------------>
+        <li class="nav-item">
+          <a class="nav-link nav-link-plus" href="#about"><i class="fa fa-address-card-o" aria-hidden="true"></i>About</a>
+        </li>
+<!-------- / ----------->
+        <li class="nav-item">
+          <a class="nav-link"><b>/</b></a>
+        </li>
+<!-------- PORTFOLIO ----------->
+        <li class="nav-item">
+          <a class="nav-link nav-link-plus" href="#portfolio"><i class="fa fa-file-code-o" aria-hidden="true"></i>Portfolio</a>
+        </li>
+<!-------- / ----------->
+        <li class="nav-item">
+          <a class="nav-link"><b>/</b></a>
+        </li>
+<!-------- CONTACT ----------->
+        <li class="nav-item">
+          <a class="nav-link nav-link-plus" href="#contact"><i class="fa fa-envelope-o" aria-hidden="true"></i>Contact</a>
+        </li>
+<!---------- /$ _ ------------->
+        <li class="nav-item">
+          <a class="nav-link"><b>/ $ </b><span class="blink cursor">|</span></a>
+        </li>
+      </ul>
+      <!----------- ADAM KIM -------->
+<li class="navbar-brand">
+  <!-- Adam Kim -->
+</li>
+      </div>
+  </nav>
+</div>
+</div>
+
+<body>
+
+
+<!-------------------------HOME SECTION ----------------->
+<div id="home">
+  <div class="bg-home">
+    <video autoplay id="video-background" muted plays-inline>
+      <source src="C:\Users\akim4\Google Drive\CODE\PORTFOLIO\imgs\USED IMGS\waveform.mp4" type="video/mp4">
+    </video>
+  </div>
+<div class="container-fluid">
+  <div class="row home-header-padding">
+        <div class="col-6 text-center">
+          <p id="typeIt1"></p>
+          <h class="caption1"><span id="header2">Adam Kim<br>
+            Web Designer &<br>Front End Developer</span>
+          </h>
+        </div>
+          <div class="col-6">
+          </div>
+  </div>
+</div>
+</div>
+
+<!------------------ ABOUT ----------------------------->
+<div id="about">
+  <div class="bg-about">
+    <div class="container-fluid">
+      <div class="row about-header-padding">
+        <div class="col-7">
+        </div>
+        <div class="col-4 text-center">
+    <h class="caption1">
+      About me
+    </h>
+    <br>
+    <p2>
+      I'm a self-made web developer and an inspired problem solver from New York City.
+      <br>
+      <br>
+      Discovering missing features, lack of customizations, and plain old inefficiency, upon different medians has inspired me to develop solutions to improve quality of life, productivity, and service.
+      <br>
+      <br>
+      I am currently a front-end freelancer and currently working on securing a Full stack position as I progress in my studies.
+    </p2>
+  </div>
+  <div class="col-1">
+  </div>
+</div>
+</div>
+
+<br>
+<!-- ABOUT ICON PORTION -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-7">
+    </div>
+    <div class="col-4">
+      <div class="row">
+        <div class="col-2 text-center">
+        <p2 class="icon-text">
+            HTML5
+          </p2>
+          <br>
+          <!-- POST IMG LINK -->
+            <img class="img-fluid img-fluid-icons" src="https://s19.postimg.org/9fue0l443/html5-icon.png">
+            <!---IMGUR LINK -->
+            <!-- <img class="img-fluid img-fluid-icons" src="https://imgur.com/LE6O4r1.png"> -->
+        </div>
+        <div class="col-2 text-center">
+        <p2 class="icon-text">
+            CSS3
+          </p2>
+          <br>
+          <!-- POST IMG LINK -->
+          <img class="img-fluid img-fluid-icons" src="https://s19.postimg.org/6x8ozwidv/css3icon.png">
+          <!-- IMGUR LINK -->
+            <!-- <img class="img-fluid img-fluid-icons" src="https://imgur.com/FNBhaUR.png"> -->
+        </div>
+        <div class="col-2 text-center">
+        <p2 class="icon-text">
+            JS
+          </p2>
+          <br>
+          <!-- POST IMG LINK -->
+          <img class="img-fluid img-fluid-icons" src="https://s19.postimg.org/5pzclfhn7/jsicon2.png">
+          <!-- IMGUR LINK -->
+          <!-- <img class="img-fluid img-fluid-icons" src="https://imgur.com/aVxcRxY.png"> -->
+        </div>
+        <div class="col-2 text-center">
+        <p2 class="icon-text">
+          JQUERY
+        </p2>
+        <br>
+        <!-- POST IMG LINK -->
+        <img class="img-fluid img-fluid-icons" src="https://s19.postimg.org/aw5wiq70z/j_Queryicon.png">
+        <!-- IMGUR LINK -->
+          <!-- <img class="img-fluid img-fluid-icons" src="https://imgur.com/wp6l57a.png"> -->
+      </div>
+      <div class="col-2 text-center">
+        <p2 class="icon-text">
+          B.STRAP
+        </p2>
+        <br>
+        <!-- POST IMG LINK -->
+        <img class="img-fluid img-fluid-icons" src="https://s19.postimg.org/ejq92j4lv/bootstrap-icon.png">
+        <!-- IMGUR LINK -->
+          <!-- <img class="img-fluid img-fluid-icons" src="https://imgur.com/RlpkZPY.png"> -->
+      </div>
+      <div class="col-2 text-center">
+        <p2 class="icon-text">
+          AHK
+        </p2>
+        <br>
+        <!-- POST IMG LINK -->
+        <img class="img-fluid img-fluid-icons" src="https://s19.postimg.org/d9nu9qlg3/AHK-_ICON.png">
+        <!-- IMGUR LINK -->
+          <!-- <img class="img-fluid img-fluid-icons" src="https://imgur.com/ExjHupt.png"> -->
+        </div>
+      </div>
+    </div>
+      <div class="col-1">
+      </div>
+    </div>
+  </div>
+
+<!-- for 3x2 icon row setup
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-7">
+      </div>
+      <div class="col-4 text-center">
+        <div class="row">
+          <div class="col-4 text-center">
+          <p2>
+            JQUERY
+          </p2>
+          <br>
+            <img class="img-fluid" src="https://imgur.com/wp6l57a.png">
+        </div>
+        <div class="col-4 text-center">
+          <p2>
+            BOOTSTRAP
+          </p2>
+          <br>
+            <img class="img-fluid" src="https://imgur.com/RlpkZPY.png">
+        </div>
+        <div class="col-4 text-center">
+          <p2>
+            AHK
+          </p2>
+          <br>
+            <img class="img-fluid" src="https://imgur.com/ExjHupt.png">
+          </div>
+        </div>
+      </div>
+        <div class="col-1">
+        </div>
+      </div>
+    </div> -->
+
+<!-- end of bg-about div for full bg -->
+  </div>
+</div>
+
+<!----------------------------- PORTFOLIO ---------------------------------->
+<div id="portfolio">
+  <div class="bg-portfolio">
+    <div class="container-fluid">
+      <div class="row portfolio-header-padding">
+        <div class="col-4">
+        </div>
+          <div class="col-4 text-center">
+            <h class="caption1">Portfolio</h>
+            <br>
+            <p3>Below you can find my work, most are still being developed and improved.</p3>
+          </div>
+            <div class="col-4">
+            </div>
+      </div>
+    </div>
+    <br>
+
+
+<!-- PORTFOLIO GRID 1-->
+<div class="container-fluid">
+  <div class="row">
+<!-- LEFT 2 -->
+    <div class="col-2">
+    </div>
+<!--  -->
+<!-- MIDDLE 8 -->
+      <div class="col-8">
+        <div class="container-fluid">
+          <div class="row">
+
+              <!-- PJ BOX 1 -->
+            <div class="col-4">
+              <a href="#">
+              <div class="project1 project-text-positioning1">
+                <div class="project-text-container project-text-positioning2">
+                    <div class="col-12 text-center">
+                      <h>Project 1 Header<br>Description</h>
+                    </div>
+                </div>
+              </div>
+                </a>
+            </div>
+
+                   <!-- PJ BOX 2 -->
+            <div class="col-4">
+              <a href="#">
+              <div class="project2 project-text-positioning1">
+                <div class="project-text-container project-text-positioning2">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-12 text-center">
+                      <h>Project 2 Header<br>Description</h>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </a>
+          </div>
+
+                <!-- PJ BOX 3 -->
+                <div class="col-4">
+                  <a href="#">
+                  <div class="project2 project-text-positioning1">
+                    <div class="project-text-container project-text-positioning2">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-12 text-center">
+                          <h>Project 3 Header<br>Description</h>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </a>
+              </div>
+<!-- FOR MIDDLE CLOSING DIVS       -->
+</div>
+</div>
+</div>
+<!--  -->
+<!-- RIGHT 2 -->
+    <div class="row-2">
+    </div>
+<!-- ENDING TOTAL DIVS -->
+  </div>
+  </div>
+<!--  -->
+  <br>
+
+<!-- PORTFOLIO GRID 2-->
+<div class="container-fluid">
+  <div class="row">
+<!-- LEFT 2 -->
+    <div class="col-2">
+    </div>
+<!--  -->
+<!-- MIDDLE 8 -->
+      <div class="col-8">
+        <div class="container-fluid">
+          <div class="row">
+
+              <!-- PJ BOX 4 -->
+            <div class="col-4">
+              <a href="#">
+              <div class="project4 project-text-positioning1">
+                <div class="project-text-container project-text-positioning2">
+                    <div class="col-12 text-center">
+                      <h>Project 4 Header<br>Description</h>
+                    </div>
+                </div>
+              </div>
+              </a>
+            </div>
+
+                   <!-- PJ BOX 5 -->
+            <div class="col-4">
+              <a href="https://codepen.io/Resv/pen/xLNpgM">
+              <div class="project5 project-text-positioning1">
+                <div class="project-text-container project-text-positioning2">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-12 text-center">
+                      <h>Tribute Page<br><em>HTML5, jQuery, Boostrap, CDN</em></h>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </a>
+          </div>
+
+                <!-- PJ BOX 6 -->
+                <div class="col-4">
+                  <a href="https://codepen.io/Resv/pen/oGLgXm">
+                  <div class="project6 project-text-positioning1">
+                    <div class="project-text-container project-text-positioning2">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-12 text-center">
+                          <h>Portfolio Source Code<br><em>HTML5, jQuery, Boostrap, CDN</em></h>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </a>
+              </div>
+<!-- FOR MIDDLE CLOSING DIVS       -->
+</div>
+</div>
+</div>
+<!--  -->
+<!-- RIGHT 2 -->
+    <div class="row-2">
+    </div>
+<!-- ENDING TOTAL DIVS -->
+  </div>
+  </div>
+<!--  -->
+
+
+
+
+
+
+
+
+
+    <!-- END OF PORTFOLIO -->
+  </div>
+</div>
+
+
+
+<!------------------------- CONTACT ----------------------------->
+<div id="contact">
+  <div class="bg-contact">
+    <div class="container-fluid">
+      <div class="row contact-header-padding">
+        <div class="col-1">
+        </div>
+          <div class="col-4 text-center">
+            <h class="caption1">Contact Me</h>
+            <br>
+            <p4>I'd love to talk to you!</p4>
+          </div>
+            <div class="col">
+            </div>
+      </div>
+    </div>
+
+<!-- CONTACT ICONS -->
+<div class="container-fluid">
+  <div class="row contact-header-padding">
+  <!--  ------------------------>
+    <!-- GITHUB -->
+    <div class="col-1 text-center">
+    <p5><a href="https://github.com/resv" class="contact-link-color"><span class="fa-stack fa-2x">
+      <i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-github fa-stack-1x" aria-hidden="true"></i></span><br><span class="contact-link-outline">Github</span></a></p5
+    <br>
+    </div>
+    <!-- FCC -->
+    <div class="col-1 text-center">
+    <p5><a href="https://www.freecodecamp.org/resv" class="contact-link-color"><span class="fa-stack fa-2x">
+      <i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-free-code-camp fa-stack-1x" aria-hidden="true"></i></span><br><span class="contact-link-outline">FCC</span></a></p5
+    <br>
+    </div>
+      <!-- CODEPEN -->
+      <div class="col-1 text-center">
+      <p5><a href="https://codepen.io/Resv/" class="contact-link-color"><span class="fa-stack fa-2x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-codepen fa-stack-1x" aria-hidden="true"></i></span><br><span class="contact-link-outline">Codepen</span></a></p5>
+      <br>
+    </div>
+    <!-- LINKEDIN -->
+    <div class="col-1 text-center">
+    <p5><a href="https://www.linkedin.com/in/adamkim456" class="contact-link-color"><span class="fa-stack fa-2x">
+      <i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x" aria-hidden="true"></i></span><br><span class="contact-link-outline">Linkedin</span></a></p5>
+    </div>
+    <!-- E-mail -->
+    <div class="col-1 text-center">
+    <p5><a href="https://mail.google.com/mail/?view=cm&fs=1&to=akim456@gmail.com&su=SUBJECT&body=BODY" class="contact-link-color"><span class="fa-stack fa-2x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-envelope-o fa-stack-1x gmail-red" aria-hidden="true"></i></span></i><br><span class="contact-link-outline">Gmail</span></a></p5>
+    <br>
+  </div>
+  <!-- Twitter -->
+  <div class="col-1 text-center">
+  <p5><a href="https://twitter.com/resv_" class="contact-link-color"><span class="fa-stack fa-2x">
+    <i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x" aria-hidden="true"></i></span><br><span class="contact-link-outline">Twitter</span></a></p5>
+  <br>
+</div>
+
+  <!--  ----------------------->
+  <div class="col-1 text-center">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- END -->
+</body>
+</html>
