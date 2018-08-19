@@ -219,7 +219,7 @@ body, html {
        /* LOCAL FILE */
      /* background-image: url('imgs/used imgs/eZDIJUO.png'); */
      /* LOCAL FILE PARALLAX*/
-     background-image: url('imgs/used imgs/unvONLG.png') no-repeat center center fixed;
+     background-image: url("imgs/used imgs/unvONLG.png") no-repeat center center fixed;
 
       /* Full height */
       height: 100%;
