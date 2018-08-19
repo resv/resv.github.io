@@ -164,9 +164,11 @@ body, html {
       /*POSTIMG LINK*/
       /* background-image: url('https://s19.postimg.org/6jbye1no3/12_-_e_ZDIJUO.jpg'); */
       /*IMGUR LINK*/
-      background-image: url('https://imgur.com/eZDIJUO.png');
+      /* background-image: url('https://imgur.com/eZDIJUO.png'); */
        /*PARALLAX IMGUR*/
      /*background: url('https://imgur.com/eZDIJUO.png') no-repeat center center fixed;*/
+     /* LOCAL FILE */
+     background-image: url('imgs/used imgs/eZDIJUO.png');
 
       /* Full height */
       height: 100%;
@@ -213,7 +215,11 @@ body, html {
       /*IMGUR LINK*/
       /* background-image: url('https://imgur.com/unvONLG.png'); */
       /*PARALLAX IMGUR*/
-       background: url('https://imgur.com/unvONLG.png') no-repeat center center fixed;
+       /* background: url('https://imgur.com/unvONLG.png') no-repeat center center fixed; */
+       /* LOCAL FILE */
+     /* background-image: url('imgs/used imgs/eZDIJUO.png'); */
+     /* LOCAL FILE PARALLAX*/
+     background-image: url('imgs/used imgs/unvONLG.png') no-repeat center center fixed;
 
       /* Full height */
       height: 100%;
@@ -236,9 +242,11 @@ body, html {
       /*POST IMG LINK*/
       /* background-image: url('https://s19.postimg.org/7mw2q08b7/website-design-background.png'); */
       /*IMGUR LINK*/
-      background-image: url('https://imgur.com/LCyds0s.png');
+      /* background-image: url('https://imgur.com/LCyds0s.png'); */
       /*PARALLAX IMGUR LINK*/
       /*background: url('https://imgur.com/LCyds0s.png') no-repeat center center fixed;*/
+      /* LOCAL FILE */
+     background-image: url('imgs/used imgs/LCyds0s.png');
 
       /* Full height */
       height: 100%;
@@ -263,7 +271,11 @@ body, html {
       /*IMGUR LINK*/
       /* background-image: url('https://imgur.com/VNKyPer.png'); */
       /*PARALLAX IMGUR LINK*/
-      background: url('https://imgur.com/VNKyPer.png') no-repeat center center fixed;
+      /* background: url('https://imgur.com/VNKyPer.png') no-repeat center center fixed; */
+      /* LOCAL FILE */
+       /* background-image: url('imgs/used imgs/VNKyPer.png'); */
+      /* LOCAL FILE PARALLAX*/
+      background-image: url('imgs/used imgs/VNKyPer.png') no-repeat center center fixed;
 
       /* Full height */
       height: 100%;
@@ -309,7 +321,10 @@ body, html {
   /*POST IMG LINK*/
   /* background-image: url('https://s19.postimg.org/qkbp39c0j/BElp_XGH_-_Imgur.png'); */
   /*IMGUR LINK*/
-  background-image: url('https://imgur.com/BElpXGH.png');
+  /* background-image: url('https://imgur.com/BElpXGH.png'); */
+  /* LOCAL FILE */
+  background-image: url('imgs/used imgs/BElpXGH.png');
+  
 
   /* Full height */
   height: 100%;
@@ -328,7 +343,9 @@ body, html {
   /*POST IMG LINK*/
   /* background-image: url('https://s19.postimg.org/pqz3an5zn/GFB074_F_-_Imgur.png'); */
   /*IMGUR LINK*/
-  background-image: url('https://imgur.com/GFB074F.png');
+  /* background-image: url('https://imgur.com/GFB074F.png'); */
+  /* LOCAL FILE */
+  background-image: url('imgs/used imgs/GFB074F.png');
 
   /* Full height */
   height: 98%;
@@ -348,8 +365,9 @@ body, html {
   /*POST IMG LINK*/
   /* background-image: url('https://s19.postimg.org/jejy0t2xf/Xx3_HTl0_-_Imgur.png'); */
   /*IMGUR LINK*/
-  background-image: url('https://imgur.com/Xx3HTl0.png');
-
+  /* background-image: url('https://imgur.com/Xx3HTl0.png'); */
+  /* LOCAL FILE */
+  background-image: url('imgs/used imgs/Xx3HTl0.png');
 
   /* Full height */
   height: 98%;
@@ -369,7 +387,9 @@ body, html {
   /*POST IMG LINK*/
     /* background-image: url('https://s19.postimg.org/gbntb6dcj/r_Iv1p_Qa_-_Imgur.png'); */
   /*IMGUR LINK*/
-  background-image: url('https://imgur.com/rIv1pQa.png');
+  /* background-image: url('https://imgur.com/rIv1pQa.png'); */
+  /* LOCAL FILE */
+  background-image: url('imgs/used imgs/rIv1pQa.png');
 
   /* Full height */
   height: 100%;
@@ -389,7 +409,9 @@ body, html {
   /*POST IMG LINK*/
   /* background-image: url('https://s19.postimg.org/m2n6ge043/Mspivk_N_-_Imgur.png'); */
   /*IMGUR LINK*/
-  background-image: url('https://imgur.com/MspivkN.png');
+  /* background-image: url('https://imgur.com/MspivkN.png'); */
+  /* LOCAL FILE */
+  background-image: url('imgs/used imgs/MspivkN.png');
 
 
   /* Full height */
@@ -410,7 +432,9 @@ body, html {
   /*POST IMG LINK*/
     /* background-image: url('https://s19.postimg.org/4jxqmkv0z/h2_Dz_Ac_N_-_Imgur.png'); */
   /*IMGUR LINK*/
-  background-image: url('https://imgur.com/h2DzAcN.png');
+  /* background-image: url('https://imgur.com/h2DzAcN.png'); */
+  /* LOCAL FILE */
+  background-image: url('imgs/used imgs/h2DzAcN.png');
 
   /* Full height */
   height: 100%;
@@ -430,7 +454,9 @@ body, html {
   /*POST IMG LINK*/
     /* background-image: url('https://s19.postimg.org/l03t6d2j7/Omc_P4_HY_-_Imgur.png'); */
   /*IMGUR LINK*/
-  background-image: url('https://imgur.com/OmcP4HY.png');
+  /* background-image: url('https://imgur.com/OmcP4HY.png'); */
+  /* LOCAL FILE */
+  background-image: url('imgs/used imgs/OmcP4HY.png');
 
   /* Full height */
   height: 100%;
@@ -450,7 +476,10 @@ body, html {
     /*POST IMG LINK*/
       /* background-image: url('https://s19.postimg.org/5xpdhvuab/image.png'); */
     /*IMGUR LINK*/
-    background-image: url('https://imgur.com/nw1zJ3G.png');
+    /* background-image: url('https://imgur.com/nw1zJ3G.png'); */
+    /* LOCAL FILE */
+    background-image: url('imgs/used imgs/nw1zJ3G.png');
+    
 
     /* Full height */
     height: 100%;
