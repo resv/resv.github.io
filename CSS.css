@@ -211,9 +211,9 @@ body, html {
       /*POST IMG LINK*/
       /* background-image: url('https://s19.postimg.org/76av3kkk3/unv_ONLG_-_Imgur.jpg'); */
       /*IMGUR LINK*/
-      background-image: url('https://imgur.com/unvONLG.png');
+      /* background-image: url('https://imgur.com/unvONLG.png'); */
       /*PARALLAX IMGUR*/
-       /*background: url('https://imgur.com/unvONLG.png') no-repeat center center fixed;*/
+       background: url('https://imgur.com/unvONLG.png') no-repeat center center fixed;
 
       /* Full height */
       height: 100%;
@@ -261,9 +261,9 @@ body, html {
       /*POST IMG LINK*/
       /* background-image: url('https://s19.postimg.org/sh8f7u2oj/night-walk-park-hd-wallpaper.jpg'); */
       /*IMGUR LINK*/
-      background-image: url('https://imgur.com/VNKyPer.png');
+      /* background-image: url('https://imgur.com/VNKyPer.png'); */
       /*PARALLAX IMGUR LINK*/
-      /*background: url('https://imgur.com/VNKyPer.png') no-repeat center center fixed;*/
+      background: url('https://imgur.com/VNKyPer.png') no-repeat center center fixed;
 
       /* Full height */
       height: 100%;
