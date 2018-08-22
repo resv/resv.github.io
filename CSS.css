@@ -92,7 +92,7 @@ li {
 /*ABOUT TEXT-------------------------*/
 p2 {
   color: white;
-  font-size: 120%;
+  font-size: 100%;
   /* font-weight: bold; */
   font-family: 'Encode Sans', sans-serif;
   /* -webkit-text-stroke: .1px rgb(6, 255, 68); */
@@ -110,7 +110,7 @@ p2 {
 /*FOR SIZING ABOUT ICONS*/
 .img-fluid-icons {
   display: block;
-  max-width: 95%;
+  max-width: 60%;
   height: auto;
   /*CENTERING*/
   margin-left: auto;
