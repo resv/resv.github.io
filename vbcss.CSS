@@ -33,6 +33,13 @@ hr.style-one {
   opacity: 0;
 }
 
+#h22{
+  font-size: 500%;
+  font-family: 'Alegreya SC', serif;
+  color: #000000;
+  opacity: 0;
+}
+
 /*CONTENT HEADERS*/
 h1 {
   font-size: 150%;
