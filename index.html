@@ -54,9 +54,9 @@
         <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
 
         <ul class="nav-menu list-unstyled">
-          <li><a href="#header" class="smoothScroll">Home</a></li>
           <li><a href="#about" class="smoothScroll">About</a></li>
           <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
+          <li><a href="#resume" class="smoothScroll">Resume</a></li>
           <li><a href="#experience" class="smoothScroll">Experience</a></li>
           <li><a href="#contact" class="smoothScroll">Contact</a></li>
         </ul>
@@ -105,7 +105,7 @@
             <p class="p-heading text-dark animated wow fadeInRight slow">I'm software developer that is passionate about developing applications to help people
                and ease their lives. I also enjoy working on android applications with the same focus.</p>
 
-            <p class="separator text-dark animted wow fadeIn delay-4s">Fascinated on how difficult life can be and how much help people unknowingly need, I 
+            <p class="separator text-dark animted wow fadeIn delay-2s">Fascinated on how difficult life can be and how much help people unknowingly need, I 
               wanted to improve their quality of life. Unsure of how to achieve this, I found myself learning to code 
               on my free time. My free time became not enough time and now I'm developing applications to make people's 
               lives easier one line of code at a time.</p>
@@ -309,7 +309,7 @@
                         <h4 class="subheading text-dark">New Humble Beginnings</h4>
                       </div>
                       <div class="timeline-body animated wow fadeInLeft delay-1s">
-                        <p class="text-muted">Starting a new career free lancing while seeking a role as a Software Developer.</p>
+                        <p class="text-muted">Starting a new career free lancing and seeking a position as a Full Stack Developer.</p>
                       </div>
                 </div>
               </li>
@@ -371,16 +371,26 @@
                   <div class="timeline-image">
                       <img class="rounded-circle img-fluid animated wow flipInX slow" src="images/timeline/queenscollege.jpg" alt="">
                     </div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading animated wow fadeIn slow">
-                      <h4 class="text-dark">February 2015</h4>
-                      <h4 class="subheading text-dark">Queens College, City University of New York</h4><h4 class="subheading"> Bachelor's Degree</h4>
-                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading animated wow fadeIn slow">
+                        <h4 class="text-dark">February 2015</h4>
+                        <h4 class="subheading text-dark">Queens College, City University of New York</h4><h4 class="subheading"> Bachelor's Degree</h4>
+                      </div>
                     <div class="timeline-body">
                       <p class="text-muted animated wow fadeInLeft delay-1s">Opportunities to work every position in a live broadcasting environment as a
                           Director, Producer, to a Camera and Lighting Switch Operator. Academic focus on Media & Guerrilla Marketing strategies.</p>
                     </div>
                   </div>
+              </li>
+              
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <a href="images/timeline/Adam Kim Developer Resume.pdf?url=http://atomkim.com/Adam Kim Developer Resume.pdf&embedded=true" target="_blank" id="resume">
+                    <h4>Click for Professional<br>Resume<br>
+                      <i class="ion-document-text"></i>
+                    </h4>
+                  </a>
+                </div>
               </li>
 
             </ul>
@@ -389,6 +399,8 @@
       </div>
     </section>
 <!-- END OF ABOUT -->
+
+<div id="iframe_parent"></div>
 
   <!-- START OF CONTACT -->
   <div id="contact" class="paddsection">
@@ -411,7 +423,7 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="" method="post" role="form" class="contactForm">
+            <form action="mailer.php" method="post" role="form" class="contactForm" id="ajax-contact">
               <div class="row">
 
                 <div id="sendmessage">Your message has been sent. Thank you!</div>
