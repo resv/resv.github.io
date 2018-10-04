@@ -510,6 +510,7 @@ nav ul li a {
 #contact {
   height: auto;
   width: 100%;
+  background: url("../images/contact.jpg") scroll center center / cover;
 }
 
 .contact-details {
