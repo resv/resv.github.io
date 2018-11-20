@@ -1,4 +1,4 @@
 This is a Brave Payments publisher verification file.
 
-Domain: atomkim.com 
-Token: 75dfbcbd75cc94875b17963a96f3b0df6566e2fb4341625853cc26a59fde366f
+Domain: atomkim.com
+Token: d1da1e7fe63d8d085750c86fe906334d81a9c42f94356bd6efcc7e18a826a9ec
