@@ -2,10 +2,10 @@
 /*------------------------ SOCIAL MEDIA BOXES ------------------------*/
 #icon1 {
     -webkit-animation-duration: 2s;
-    -webkit-animation-delay: 2300ms;
+    -webkit-animation-delay: 2200ms;
 
     animation-duration: 2s;
-    animation-delay: 2300ms;
+    animation-delay: 2200ms;
 }
 
 #icon2 {
@@ -30,6 +30,14 @@
 
     animation-duration: 2s;
     animation-delay: 3400ms;
+}
+
+#icon5 {
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: 3800ms;
+
+    animation-duration: 2s;
+    animation-delay: 3800ms;
 }
 
 /*------------------------ SERVICE ICON BOXES ------------------------*/
