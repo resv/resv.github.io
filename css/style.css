@@ -1,4 +1,9 @@
 
+.disable-link{
+  pointer-events: none;
+  cursor: default;
+}
+
 body {
   background: #ffffff;
   color: #898989;
