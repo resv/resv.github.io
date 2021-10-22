@@ -443,6 +443,18 @@ nav ul li a {
   max-width: 100%;
 }
 
+.portfolio-tryhackme-outside {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+.portfolio-tryhackme-inside
+  {
+    position: absolute;
+    top: 60px;
+    left: 80px;
+  }
+
 /*-----------------------------------------------------------------------------------*/
 /*  Journal
 /*-----------------------------------------------------------------------------------*/
