@@ -821,7 +821,7 @@ nav ul li a {
   }
 
   .timeline>li .timeline-panel {
-      padding: 0 20px 20px 100px
+      padding: 0 20px 0px 0px
   }
 
   .timeline>li .timeline-image {
@@ -835,6 +835,24 @@ nav ul li a {
   }
 
   .timeline>li.timeline-inverted>.timeline-panel {
-      padding: 0 100px 20px 20px
+      padding: 0 0px 0px 20px
   }
+}
+
+/** time line grid/table on the same line **/
+.grid-samerow-left {
+  float:left;
+  padding-right: 116px;
+  width:50%; // or 33% for equal width independent of parent width BUT NEED TO ADD ANOTHER DIV INBETWEEN
+}
+
+.grid-samerow-center {
+  float:left;
+  width:50%; // or 33% for equal width independent of parent width BUT NEED TO ADD ANOTHER DIV INBETWEEN
+}
+
+.grid-samerow-right {
+  float:left;
+  padding-left: 116px;
+  width:50%; // or 33% for equal width independent of parent width BUT NEED TO ADD ANOTHER DIV INBETWEEN
 }
